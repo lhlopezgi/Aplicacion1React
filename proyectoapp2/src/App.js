@@ -7,6 +7,7 @@ import Validacion from './components/validacion';
 function App() {
 
   const mensaje ="Hola hijo"
+  const nombre = "Luis Lopez"
 
   useEffect(() => {
     console.log("Componente ha sido montado")
@@ -20,8 +21,8 @@ function App() {
     <div className="App">
       
       <body>
-        <Hijo mensaje ={mensaje}>
-        <Validacion nombre="Luis Lopez" />
+        <Hijo mensaje ={mensaje} nombre = {nombre}>
+       
         </Hijo>
 
         
